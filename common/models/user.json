@@ -46,6 +46,10 @@
     },
     "password": {
       "type": "string"
+    },
+    "isActive": {
+      "type": "boolean",
+      "required": true
     }
   },
   "validations": [],

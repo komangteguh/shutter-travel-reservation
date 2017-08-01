@@ -17,38 +17,37 @@
     ]
   },
   "User": {
-    "dataSource": "mongodb",
-    "public": false
+    "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": false
   },
   "user": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": true
   },
   "BaseModel": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": false
   },
   "vehicle": {
-    "dataSource": "mongodb",
+    "dataSource": "db",
     "public": true
   }
 }
