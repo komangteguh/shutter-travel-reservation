@@ -5,7 +5,7 @@ module.exports = function(app) {
   var Role = app.models.Role;
   var RoleMapping = app.models.RoleMapping;
 
-  User.find({where: {'email': 'admin@myride.com'}}, function(err, users) {
+  User.find({where: {'email': 'admin@mail.com'}}, function(err, users) {
     if (users.length <= 0) {
       User.create(
         {
